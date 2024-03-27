@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>Paraiso do Açai</title>
+    <style>
+
+        body {
+            background-color: rgb(29, 1, 36);
+        }
+
+        header {
+            background-color: rgb(62, 2, 78);
+        }
+
+        h1 {
+            color: #fff;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+        }
+
+        header .container img {
+            height: 130px;
+        }
+
+        .carousel-item {
+            height: 80%;
+        }
+
+        h3 {
+            color: #fff;
+            margin-top: 50px;   
+        }
+
+        .card-title {
+            color: rgb(55, 4, 57);
+        }
+
+        hr, p {
+            color: #fff;
+        }
+
+        .card {
+            border: 2px solid #fff;
+            background-color: rgb(150, 21, 124); 
+        }
+
+    </style>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <img src="/images/Paraiso.png">
+                <h1>Paraiso do Açai</h1>
+                <button data-bs-toggle="collapse" data-bs-target="#menu" class="navbar-toggler" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills ">
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light active" href="#sabores">Sabores</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#curiosidades">Curiosidades</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+
+<div class="container mt-5">
+    <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+            <div class="carousel-item active">
+                <img src="/images/slide1.png" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/slide2.png" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/slide3.png" class="d-block w-100">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+</div>
+
+<div class="container">
+    <h3 id="sabores">Sabores</h3>
+    <hr>
+</div>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            
+            <div class="card h-100">
+                <img src="/images/copo1.png" class="card-img-top" alt="copo 1">
+                <div class="card-body">
+                    <h5 class="card-title">Açai de Morango e Banana</h5>
+                    <p class="card-text">Experimente nosso delicioso Açai de Morango e Banana que  é uma combinação deliciosa de sabores.! Peça já o seu.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            
+            <div class="card h-100">
+                <img src="/images/copo2.png" class="card-img-top" alt="copo 2">
+                <div class="card-body">
+                    <h5 class="card-title">Açai Festa</h5>
+                    <p class="card-text">Açai Festa é um copo de açaí delicioso e festivo. Ele é feito com uma combinação de ingredientes que proporcionam uma explosão de sabores.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            
+            <div class="card h-100">
+                <img src= "/images/copo3.jpeg" class="card-img-top" alt="copo 3">
+                <div class="card-body">
+                    <h5 class="card-title">Açai Combo</h5>
+                    <p class="card-text">Um combo de 3 copos é uma ótima opção para quem quer experimentar diferentes sabores de açaí. Nesse combo, você terá a oportunidade de desfrutar de três deliciosos copos de açaí, cada um com um sabor único e irresistível. Aproveite essa oportunidade para se deliciar com a combinação perfeita de frutas, cremosidade e doçura. Não perca tempo e garanta já o seu combo de 3 copos de açaí!</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
